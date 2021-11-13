@@ -22,7 +22,7 @@ Widget appBar() => DefaultTabController(
           indicatorColor: Colors.white,
           indicatorWeight: 3,
           tabs: [
-            Tab(icon: Icon(Icons.stars), text: "Home"),
+            Tab(icon: Icon(Icons.home), text: "Home"),
             Tab(icon: Icon(Icons.stars), text: 'Passwords'),
             Tab(
               icon: Icon(Icons.settings),
