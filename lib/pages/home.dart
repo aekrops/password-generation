@@ -18,11 +18,18 @@ class _HomePageState extends State<HomePage> {
                 preferredSize: const Size.fromHeight(80),
                 child: appBar()
             ) ,
-            body: Center(
-              child: Column(
-                children: const <Widget>[],
-              ),
+            body: TabBarView(
+              children: [
+                buildPage("Home Page"),
+                buildPage("Passwords Page"),
+                buildPage("Settings Page"),
+              ],
             ),
           )
       );
 }
+
+Widget buildPage(String text) => Center(
+  child: Text(text),
+);
+

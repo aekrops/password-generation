@@ -1,9 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 
-Widget appBar() => DefaultTabController(
-    length: 3,
-    child: AppBar(
+Widget appBar() => AppBar(
         title: const Text(""),
         flexibleSpace: Container(
           decoration: const BoxDecoration(
@@ -28,4 +26,4 @@ Widget appBar() => DefaultTabController(
               icon: Icon(Icons.settings),
               text: 'Settings',
             )
-        ])));
+        ]));
