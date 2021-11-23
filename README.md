@@ -1,4 +1,4 @@
-# app
+# Password Generator
 
 A password generation Flutter application.
 
