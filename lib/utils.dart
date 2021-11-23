@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
 
-
-BoxDecoration boxDecoration() =>
-    BoxDecoration(
+BoxDecoration boxDecoration() => BoxDecoration(
       color: Colors.white,
       borderRadius: const BorderRadius.only(
         topLeft: Radius.circular(10),
@@ -23,5 +21,4 @@ BoxDecoration boxDecoration() =>
 textDecoration() => TextButton.styleFrom(
     padding: const EdgeInsets.all(11),
     primary: Colors.purple.shade100,
-    backgroundColor: Colors.purple.shade700
-);
+    backgroundColor: Colors.purple.shade700);
